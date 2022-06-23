@@ -3,7 +3,7 @@ clear
 echo "Welcome to my chat server!"
 echo "------Chat by Sevada------"
 echo "Chat was created using: bash, php and curl"
-echo -e "To reload the chat just press enter to close the chat type 'exit!'\n"
+echo -e "To reload the chat press enter to close the chat type 'exit!'\n"
 messages=$(curl -s https://somechat797.000webhostapp.com/chat.txt)
 echo -e "$messages"
 read -p "Type your message here: " msg
