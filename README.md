@@ -1,9 +1,9 @@
 # chat4everyone
 This is a chat accessible from terminal or command prompt,
 it is built using bash and curl, and for windows I'm gonna make the same
-with batch
+with batch.
 
-Use following commands to enter my chat server
+Use following commands to enter my chat server.
 
 <b style="color: #24292f">git clone https://github.com/Sevada797/chat4everyone<br>
 cd chat4everyone<br>
