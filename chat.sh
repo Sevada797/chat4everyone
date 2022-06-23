@@ -16,7 +16,7 @@ then
     return 1
 elif [[ $msg != "" ]]
 then
-    curl "https://somechat797.000webhostapp.com/index.php?msg=$USER:%20$msg"
+    curl "https://somechat797.000webhostapp.com/index.php?msg=$(whoami):%20$msg"
     loadchat
 fi 
 }
