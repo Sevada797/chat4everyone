@@ -5,10 +5,10 @@ with batch
 
 Use following commands to enter my chat server
 
-<b>git clone https://github.com/Sevada797/chat4everyone<br>
+<b style="color: #24292f">git clone https://github.com/Sevada797/chat4everyone<br>
 cd chat4everyone<br>
 chmod +x chat.sh<br>
 ./chat.sh</b>
 
 or without changing permissions just  
-<b>bash chat.sh</b>
+<b style="color: #24292f">bash chat.sh</b>
