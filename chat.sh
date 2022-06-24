@@ -16,7 +16,7 @@ then
     return 1
 elif [[ $msg != "" ]]
 then
-    curl --get --data-urlencode "msg=$(whoami):%20$msg" "https://somechat797.000webhostapp.com/index.php"
+    curl -s --get --data-urlencode "msg=$(whoami):%20$msg" "https://somechat797.000webhostapp.com/index.php" > /dev/null
     loadchat
 fi 
 }
