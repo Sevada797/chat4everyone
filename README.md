@@ -13,3 +13,4 @@ or without changing permissions just
 <b style="color: #24292f">bash chat.sh</b>
 
 If you are on windows just copy chat.bat code in notepad and save it as (smth).bat.
+NOTE: (code in batch doesn't work well for now, but I'll fix it)
